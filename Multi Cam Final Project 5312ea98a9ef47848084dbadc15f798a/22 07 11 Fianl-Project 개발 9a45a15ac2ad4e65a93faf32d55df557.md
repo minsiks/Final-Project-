@@ -1,6 +1,6 @@
 # 22.07.11 Fianl-Project 개발
 
-## Day 07
+## Day 08
 
 <aside>
 🔑 Final 프로젝트 기획 
