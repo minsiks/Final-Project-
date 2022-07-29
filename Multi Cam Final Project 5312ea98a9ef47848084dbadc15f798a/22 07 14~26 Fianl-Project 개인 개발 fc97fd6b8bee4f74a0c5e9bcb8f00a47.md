@@ -58,6 +58,8 @@ web app URL : [https://script.google.com/macros/s/AKfycbzgoGkp4W2fwgmuyMIVzKUHhM
 
 [정적 HTML form태그에서 메일보내기 : Google Apps Mail](https://kutar37.tistory.com/entry/%EC%A0%95%EC%A0%81-HTML-form%ED%83%9C%EA%B7%B8%EC%97%90%EC%84%9C-%EB%A9%94%EC%9D%BC%EB%B3%B4%EB%82%B4%EA%B8%B0-Google-Apps-Mail)
 
+[📁 "Contact Me" 메세지 보내기 기능 - Google Apps Mail, 정적 HTML Form](https://velog.io/@qhflrnfl4324/Contact-Me-%EB%A9%94%EC%84%B8%EC%A7%80-%EB%B3%B4%EB%82%B4%EA%B8%B0-%EA%B8%B0%EB%8A%A5-Google-Apps-Mail-%EC%A0%95%EC%A0%81-HTML-Form)
+
 ### 12. Google Map 연동
 
 API 키
