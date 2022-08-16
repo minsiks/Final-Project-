@@ -60,7 +60,8 @@ ERD: [티켓사조](https://www.erdcloud.com/d/Gb6vzq6LdsJjFpduL)
 
 ### 1. 로그인 페이지
 
-![adminlogin](Images/adminlogin.gif)
+<p align="center"><img src="Images/adminlogin.gif"/></p>
+
 
 
 - 관리자사이트 로그인 기능 구현
@@ -95,9 +96,9 @@ ERD: [티켓사조](https://www.erdcloud.com/d/Gb6vzq6LdsJjFpduL)
 
 #### 4-1 고객 등록 페이지
 
-![custadd](Images/custadd.gif)
+<p align="center"><img src="Images/custadd.gif"/></p>
 
-![custaddsuccess](Images/custaddsuccess.gif)
+<p align="center"><img src="Images/custaddsuccess.gif"/></p>
 
 - 고객 정보 입력, 등록
 - 날짜는 숫자로 입력 ('-' 자동 생성, 날짜 범위 벗어나면 버튼 클릭시 alert로 다시 확인 메시지 출력)
@@ -106,7 +107,7 @@ ERD: [티켓사조](https://www.erdcloud.com/d/Gb6vzq6LdsJjFpduL)
 
 #### 4-2 고객 목록 페이지
 
-![clist](Images/clist.gif)
+<p align="center"><img src="Images/clist.gif"/></p>
 
 - 고객 정보 나열 및 각 고객별 쿠폰목록 정보, 수정 삭제 기능 구현, 페이징 기능 구현
 - 검색 기능 구현 (고객 관련 아무 정보나 서치 가능)
@@ -129,7 +130,7 @@ ERD: [티켓사조](https://www.erdcloud.com/d/Gb6vzq6LdsJjFpduL)
 
 #### 5-2 영화 목록 페이지
 
-![amlist](Images/amlist.gif)
+<p align="center"><img src="Images/amlist.gif"/></p>
 
 - 영화 정보 나열 및 각 영화별 리뷰 정보, 수정 삭제 기능 구현, 페이징 기능 구현
 - 검색 기능 구현 (영화 관련 아무 정보나 서치 가능)
@@ -174,7 +175,7 @@ ERD: [티켓사조](https://www.erdcloud.com/d/Gb6vzq6LdsJjFpduL)
 
 #### 8-1 스케줄 표시
 
-![list_calendar](Images/list_calendar.gif)
+<p align="center"><img src="Images/list_calendar.gif"/></p>
 
 - 오픈소스 라이브러리 Fullcalendar를 사용하여 스케줄을 구현하였습니다.
 
@@ -188,7 +189,7 @@ ERD: [티켓사조](https://www.erdcloud.com/d/Gb6vzq6LdsJjFpduL)
 
 #### 8-2 스케줄 등록
 
-![sadd](Images/sadd.gif)
+<p align="center"><img src="Images/sadd.gif"/></p>
 
 - 캘린더에서 날짜를 선택했을 경우 상영날짜에 선택한 날짜가 자동입력됩니다.
 
