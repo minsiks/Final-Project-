@@ -1,4 +1,5 @@
-# 티켓사조![바탕화면](Images/184810334-a816ed71-3eb4-4f15-bc84-ca7898fe1de0.png)
+# 티켓사조
+![바탕화면](Images/184810334-a816ed71-3eb4-4f15-bc84-ca7898fe1de0.png)
 
 팀명: 티켓 사조  
 <img src= "Images/184799023-c1061898-d659-42ed-8f74-a01ffe5fd1b9.png" width=350px, height=400px, align='right'>
@@ -60,6 +61,7 @@ ERD: [티켓사조](https://www.erdcloud.com/d/Gb6vzq6LdsJjFpduL)
 ### 1. 로그인 페이지
 
 ![adminlogin](Images/adminlogin.gif)
+
 
 - 관리자사이트 로그인 기능 구현
 - DB에 관리자사이트 회원관련 데이터와 비교하여 로그인 가능
