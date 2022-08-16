@@ -1,104 +1,64 @@
-# 클래식 영화관 티켓팅 서비스 (진행중)
+\# 티켓사조
+![바탕화면](Images/184810334-a816ed71-3eb4-4f15-bc84-ca7898fe1de0.png)
 
----
+팀명: 티켓 사조  
+<img src= "Images/184799023-c1061898-d659-42ed-8f74-a01ffe5fd1b9.png" width=350px, height=400px, align='right'>
 
-### 🗣️ 언어
+팀장: 김민식
 
-- Java
-- SQL
+팀원: 안원영, 장효준, 정세연
 
-### 🕸️ 웹
+## 프로젝트 정보
 
-- HTML5
-- CSS3
-- JS
-- JQuery
-- Ajax
+### 1. 프로젝트 주제
+Spring boot를 활용한 클래식 영화관 티켓팅 서비스 및 NCP AI 플랫폼을 활용한 고객편의기능 구현
 
-### 🛠️ 
-개발 도구
+### 2. 프로젝트 목적
 
-- Eclipse
-- Spring
-- Mybatis
-- BootStrap
-- NCPCloud
-- CentOS
-- CLOVA
+1. 클라우드 환경 사용
+2. 자리 예매 기능 구현
+3. AI Platform(CLOVA OCR)을 활용한 영수증사지을 이용한 적립금 기능 구현
+4. AI Platform(CLOVA CFR)을 활용한 닮은 꼴 배우 찾기 이벤트 페이지 구현
+5. 네이버, 구글, 페이스북 등 다양한 로그인 API를 활용한 로그인 기능 구현
 
-### 💽 DataBase
+### 3. 프로젝트 기능 구현
+1. 영화 좌석 선택 및 예약
+2. AI를 활용한 영수증 인식 후 포인트 적립, 적립 내역 조회 기능
+3. 로그인 API(OAuth) 사용해 로그인 및 회원가입 기능
+4. 결제 API 기능 
+5. 영화 필터 검색 기능
+6. 성별, 나이 정보를 바탕으로 통계표 기능
+7. 리뷰, 평점 기능
+8. CLOVA Face Recognition(CFR)을 이용한 닮은 꼴 배루 찾지 이벤트 페이지 구현
 
-- Mysql
+### 4. 프로젝트 역할 분담 
+| 이름 | 역할 |
+|---------|--------|
+| 김민식 |영화 상세 페이지(통계차트), 영화리스트 페이지, CHATBOT, Contact Us 페이지(구글맵, 문의사항 메일로 전송), CLOVA Face Recognition (CFR), Admin 페이지 (고객/영화/스케줄/쿠폰/포인트 관리, 예매내역 조회, 로그인, 회원가입)|
+| 안원영 |로그인 API(**OAuth**), NCP AI CLOVA OCR* (쿠폰 or 적립), 리뷰 순위 페이지, 포인트 적립, 메인 페이지(서치 기능), Admin 페이지(메인 페이지에 차트), &nbsp; 쿠폰|
+| 장효준 | 예매(좌석선택, 극장선택, 시간선택) , 결제 API, Admin 페이지(스케줄 관리)|
+| 정세연 |회원가입, 일반 로그인, MyPage(나의 예매내역, 내 포인트 내역 조회, 내 쿠폰 내역 조회, 회원탈퇴, 회원정보변경, 비밀번호 변경)|
 
-### 🔱 
-협업도구
+### 5. 프로젝트 개발 환경 및 수행 도구
+![화면 캡처 2022-08-01 114948](Images/182062696-fb7c4078-a73f-46af-97bc-cb2e0dcefc03.png)
 
-- Zoom
-- [Github](https://github.com/JangHyojoon/Ticket_SaJo)
-- [ERDCloud](https://www.erdcloud.com/d/Gb6vzq6LdsJjFpduL)
-- [padlet](https://padlet.com/tidnjrk010/obsul80ccbcf9wkt)
-- [Notion](%E1%84%8F%E1%85%B3%E1%86%AF%E1%84%85%E1%85%A2%E1%84%89%E1%85%B5%E1%86%A8%20%E1%84%8B%E1%85%A7%E1%86%BC%E1%84%92%E1%85%AA%E1%84%80%E1%85%AA%E1%86%AB%20%E1%84%90%E1%85%B5%E1%84%8F%E1%85%A6%E1%86%BA%E1%84%90%E1%85%B5%E1%86%BC%20%E1%84%89%E1%85%A5%E1%84%87%E1%85%B5%E1%84%89%E1%85%B3%20(%E1%84%8C%E1%85%B5%E1%86%AB%E1%84%92%E1%85%A2%E1%86%BC%E1%84%8C%E1%85%AE%E1%86%BC)%205312ea98a9ef47848084dbadc15f798a.md)
-- [Google Drive](https://drive.google.com/drive/folders/1KqV5xriKfJpFU2fumNHDf0K5bqJl6GD6)
+언어 | 웹 | 개발도구 | DataBase | 협업도구 | FrameWork
+---- | ---- | ---- | ---- | ---- | ---- |
+JAVA, SQL | HTML5,&nbsp; CSS3, JS, jQuery, Ajax, Bootstrap | Eclipse, NCP | Mysql | Zoom, Google Docs, Github, ERD Cloud,Padlet, Notion | Spring Boot, Mybatis
 
-## 🔗Link
+### 6. 데이터베이스 설계
+ERD: [티켓사조](https://www.erdcloud.com/d/Gb6vzq6LdsJjFpduL)
 
-- 공식 깃 허브
+![image](Images/184797326-65c2fdbf-d780-4300-92f2-82b4862eb04b.png)
 
-[GitHub - JangHyojoon/Ticket_SaJo](https://github.com/JangHyojoon/Ticket_SaJo)
+### 7. UI 설계
+![ui](Images/184812812-b5a0ff9e-75f3-4f1f-9a9f-d7f16a952bf0.png)
 
-## 📄상세 내용
+## 프로젝트 결과
 
-<aside>
-💡 -NCP 클라우드 환경 사용
-
--자리 예매 기능 구현
-
--AI Platform (CLOVA OCR) 을 활용한 영수증 사진을 이용한 적립 기능 구현
-
--AI Platform (CLOVA CFR)을 활용한 닮은 꼴 배우 찾기 이벤트 페이지 구현
-
--카카오, 네이버,구글,페이스북 계정(OAuth)을 활용한 로그인 기능 구현
--Admin page 구현
-
-</aside>
-
-## 🌲 System Diagram
+### Ticket SaJo 관리자 사이트
 
 
-
-## 🧺 담당한 기능
-
-—사용자 페이지 구현 —
-
-- Movie List Page
-1. 영화 데이터 추가하기(완료)
-2. 예약 스케쥴 (완료)
-3. 정렬 (완료)
-4. 리뷰 별점 데이터 연동해서 퍼센트로 채워 나타내기(완료)
-5. 페이징(완료)
-- Movie detail Page
-6. 슬라이드 (테마 연동 해결)
-7. 팝업창 (테마 연동 해결)
-8. 차트 구현하기 (완료)
-9. 리뷰 폼 서브밋 보내 데이터 보내기(완료)
-10. 구글맵 토글 (완료)
-- Contact Page
-11. 메일 보내기 (완료)
-12. GoogleMap 연동 (완료)
-- CFR Page
-13. Naver CLOVA 연동(완료)
-- Naver Cloud 서버에 연동
-14. Putty로 CentOS 전송 후 이미지등 경로 재설정 (완료)
-- 추가적인 Page 기능 추가
-15. Movie List에 Modal 추가하기 (완료)
-- Front-End UI 화면 구성
-
-—Admin Page 구현 —
-1. 테마 정하기
-2. 고객 등록 페이지, 고객 목록 페이지
-3. 영화 등록, 목록 페이지
-4. 장르 관리
-5. 스케줄 관리
 
 ## 개인 Project 구상 * 기획 * 개발
 
