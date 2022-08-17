@@ -174,7 +174,7 @@ ERD: [티켓사조](https://www.erdcloud.com/d/Gb6vzq6LdsJjFpduL)
 
 #### 8-1 스케줄 표시
 
-![list_calendar](Images/list_calendar.gif)
+![KakaoTalk_20220817_092123868](Images/KakaoTalk_20220817_092123868.gif)
 
 - 오픈소스 라이브러리 Fullcalendar를 사용하여 스케줄을 구현하였습니다.
 
